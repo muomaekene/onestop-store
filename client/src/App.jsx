@@ -1,5 +1,13 @@
+import Global from "./styles/global";
+import Home from "./pages/Home";
+
 const App = () => {
-  return <p>:) Building something amazing. Check back later!!!</p>;
+  return (
+    <>
+      <Global />
+      <Home />
+    </>
+  );
 };
 
 export default App;
